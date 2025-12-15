@@ -26,8 +26,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          flutter pub upgrade --major-versions
-          flutter pub get
+          ./tool/flutter_pub_get.sh
 
       - name: Build debug APK
         run: flutter build apk --debug

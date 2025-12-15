@@ -8,9 +8,9 @@ Event App built with Flutter
 
 - Add [Flutter](https://flutter.dev/docs/get-started/install) to your machine
 
-- Open this project folder with Terminal/CMD and run `flutter pub get` to fetch
-  dependencies (using `dart pub get` will fail because the Flutter SDK is
-  required).
+- Open this project folder with Terminal/CMD and run `./tool/flutter_pub_get.sh`
+  (or `flutter pub get`) to fetch dependencies. Using `dart pub get` will fail
+  because the Flutter SDK is required.
 
 - Run `flutter run` to build and run the debug app on your emulator/phone
 
